@@ -46,3 +46,17 @@ function extract {
     done
 fi
 }
+
+# Alias for dictionary
+ alias defs='python /media/batman/New\ Volume1/Projects/GetDefinition-Dictionary/getdef.py'
+
+ #Function to create a directory and immediately move into that directory.
+ mcd () {
+ 	mkdir -p $1
+	cd $1
+ }
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
